@@ -26,7 +26,7 @@ class LowerLeftCalculation: WindowCalculation, RepeatedExecutionsInThirdsCalcula
         
         rect.size.width = floor(visibleFrameOfScreen.width * CGFloat(fraction))
         
-        rect.size.height = floor(visibleFrameOfScreen.height / 2.0)
+        rect.size.height = floor(visibleFrameOfScreen.height / 3.0)
         
         return RectResult(rect)
     }
